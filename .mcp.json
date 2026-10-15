@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "pagou-sandbox": {
+      "type": "http",
+      "url": "https://mcp.pagou.com.br/sandbox/mcp",
+      "headers": {
+        "X-API-KEY": "${PAGOU_SANDBOX_API_KEY:-}"
+      }
+    },
+    "pagou": {
+      "type": "http",
+      "url": "https://mcp.pagou.com.br/mcp",
+      "headers": {
+        "X-API-KEY": "${PAGOU_API_KEY:-}"
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://code.claude.com/schemas/marketplace.json",
+  "name": "pagou",
+  "description": "Plugin oficial da Pagou para agentes de IA: skills de integração com a API e servidores MCP de documentação, Sandbox e produção.",
+  "metadata": {
+    "description": "Plugin oficial da Pagou para agentes de IA: skills de integração com a API e servidores MCP de documentação, Sandbox e produção."
+  },
+  "owner": {
+    "name": "Pagou",
+    "url": "https://pagou.com.br"
+  },
+  "plugins": [
+    {
+      "name": "pagou",
+      "source": "./",
+      "description": "Skills e servidores MCP da Pagou para integrar Pix, boleto, cartão de crédito, webhooks e split com segurança, começando pelo Sandbox.",
+      "author": {
+        "name": "Pagou",
+        "url": "https://pagou.com.br"
+      },
+      "homepage": "https://docs.pagou.com.br",
+      "repository": "https://github.com/pagou-com-br/skills",
+      "keywords": [
+        "pagou",
+        "pagamentos",
+        "pix",
+        "boleto",
+        "cartao-de-credito",
+        "webhooks",
+        "split",
+        "mcp"
+      ]
+    }
+  ]
+}

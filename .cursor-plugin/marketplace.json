@@ -1,0 +1,13 @@
+{
+  "name": "pagou",
+  "owner": {
+    "name": "Pagou"
+  },
+  "plugins": [
+    {
+      "name": "pagou",
+      "source": "./",
+      "description": "Skills e servidores MCP da Pagou para integrar Pix, boleto, cartão de crédito, webhooks e split com segurança, começando pelo Sandbox."
+    }
+  ]
+}
