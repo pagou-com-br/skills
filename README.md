@@ -170,3 +170,7 @@ claude plugin validate .
 - Configuração de agentes: https://docs.pagou.com.br/agentes
 - Instruções para o agente: https://docs.pagou.com.br/agentes/prompt.md
 - Índice para agentes: https://docs.pagou.com.br/llms.txt
+
+## Licença
+
+MIT. Consulte o arquivo [LICENSE](LICENSE).

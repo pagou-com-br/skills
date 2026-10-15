@@ -2,6 +2,7 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "pagou",
   "version": "1.0.0",
+  "license": "MIT",
   "description": "Skills e servidores MCP da Pagou para integrar Pix, boleto, cartão de crédito, webhooks e split com segurança, começando pelo Sandbox.",
   "author": {
     "name": "Pagou",

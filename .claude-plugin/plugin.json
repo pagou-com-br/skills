@@ -2,6 +2,7 @@
   "name": "pagou",
   "description": "Skills e servidores MCP da Pagou para integrar Pix, boleto, cartão de crédito, webhooks e split com segurança, começando pelo Sandbox.",
   "version": "1.0.0",
+  "license": "MIT",
   "mcpServers": "./.mcp.json",
   "author": {
     "name": "Pagou",
