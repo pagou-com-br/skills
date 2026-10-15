@@ -1,0 +1,47 @@
+{
+  "name": "pagou",
+  "version": "1.0.0",
+  "description": "Skills e servidores MCP da Pagou para integrar Pix, boleto, cartão de crédito, webhooks e split com segurança, começando pelo Sandbox.",
+  "author": {
+    "name": "Pagou",
+    "url": "https://pagou.com.br"
+  },
+  "homepage": "https://docs.pagou.com.br",
+  "repository": "https://github.com/pagou-com-br/skills",
+  "keywords": [
+    "pagou",
+    "pagamentos",
+    "pix",
+    "boleto",
+    "cartao-de-credito",
+    "webhooks",
+    "split",
+    "mcp",
+    "api"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Pagou",
+    "shortDescription": "API Pagou e MCP para agentes",
+    "longDescription": "Implemente cobranças Pix, boleto e cartão de crédito, webhooks autenticados e split na API Pagou, com regras de segurança, idempotência e recuperação, além dos servidores MCP da Pagou para consultar a documentação e testar no Sandbox.",
+    "developerName": "Pagou",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Write"
+    ],
+    "websiteURL": "https://docs.pagou.com.br",
+    "privacyPolicyURL": "https://pagou.com.br/privacidade",
+    "termsOfServiceURL": "https://pagou.com.br/termos",
+    "defaultPrompt": [
+      "Integre cobranças Pix da Pagou neste projeto, começando pelo Sandbox",
+      "Implemente o webhook da Pagou com validação HMAC e deduplicação",
+      "Revise a integração com a Pagou deste projeto pela documentação oficial"
+    ],
+    "brandColor": "#0071DF",
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.svg",
+    "screenshots": []
+  }
+}

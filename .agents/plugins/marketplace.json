@@ -1,0 +1,20 @@
+{
+  "name": "pagou",
+  "interface": {
+    "displayName": "Pagou"
+  },
+  "plugins": [
+    {
+      "name": "pagou",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/pagou-com-br/skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
